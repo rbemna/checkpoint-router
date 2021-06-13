@@ -1,0 +1,4 @@
+.modall {
+  display: flex;
+  flex-direction: column;
+}
