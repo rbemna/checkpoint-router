@@ -1,5 +1,5 @@
 export const movies = [
-  {
+  {id:1,
     title: "The croods",
     date: "2016",
     duration: "90 min",
@@ -9,7 +9,7 @@ export const movies = [
     description:
       "  After their cave is destroyed, a caveman family must trek through an unfamiliar fantastical world with the help of an inventive boy. The Croods are an eccentric family of cavemen, who survive the harsh terrain by living accordingly to a strict set of rules.",
   },
-  {
+  {id:2,
     title: "Kung FU",
     date: "2016",
     duration: "90 min",
@@ -19,7 +19,7 @@ export const movies = [
     description:
       "During an unfortunate series of events a friend of Kung Fury is assassinated by the most dangerous kung fu master criminal of all time; Adolf Hitler, a.k.a Kung Führer. Kung Fury decides to travel back in time, to Nazi Germany, in order to kill Hitler and end the Nazi empire once and for all.",
   },
-  {
+  {id:3,
     title: "Toy Story",
     date: "2010",
     duration: "90 min",
@@ -29,7 +29,7 @@ export const movies = [
     description:
       "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room. A little boy named Andy loves to be in his room, playing with his toys, especially his doll named Woody. But, what do the toys do when Andy is not with them, they come to life.",
   },
-  {
+  {id:4,
     title: "Minions",
     date: "2010",
     duration: "90 min",

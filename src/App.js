@@ -17,6 +17,7 @@ function App() {
   };
   return (
     <div className="App">
+         <Route exact path='/'>
       <Navbar bg="dark" variant="dark">
         <Nav className="mr-auto">
           <Add handleAdd={handleAdd} />
@@ -25,11 +26,13 @@ function App() {
         <Search setSearch={setSearch} />
       </Navbar>
       <MovieList moviesData={moviesData} search={search} rating={rating} />
-      <Route
-        path="/description"
-        component={Description}
-        moviesData={moviesData}
-      />
+      </Route>
+      <Route  path="/description/:Id">
+        <Description   moviesData={moviesData}/>
+      </Route>
+       
+      
+      
     </div>
   );
 }

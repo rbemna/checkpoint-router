@@ -30,7 +30,7 @@ const MovieCard = ({ movieCard }) => {
             </div>
             <div className="movie_desc">
               {/* <p className="text">{movieCard.description}</p> */}
-              <Link to="/Description">Description</Link>
+              <Link to={`/description/${movieCard.id}`}>Description</Link>
             </div>
           </div>
         </div>
