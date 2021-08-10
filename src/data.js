@@ -8,7 +8,7 @@ export const movies = [
     rating: 3,
     description:
       "  After their cave is destroyed, a caveman family must trek through an unfamiliar fantastical world with the help of an inventive boy. The Croods are an eccentric family of cavemen, who survive the harsh terrain by living accordingly to a strict set of rules.",
-  },
+      trailer:"https://youtu.be/4fVCKy69zUY"},
   {id:2,
     title: "Kung FU",
     date: "2016",
@@ -18,7 +18,8 @@ export const movies = [
     rating: 4,
     description:
       "During an unfortunate series of events a friend of Kung Fury is assassinated by the most dangerous kung fu master criminal of all time; Adolf Hitler, a.k.a Kung Führer. Kung Fury decides to travel back in time, to Nazi Germany, in order to kill Hitler and end the Nazi empire once and for all.",
-  },
+  
+      trailer:"https://youtu.be/PXi3Mv6KMzY"  },
   {id:3,
     title: "Toy Story",
     date: "2010",
@@ -28,7 +29,8 @@ export const movies = [
     rating: 2,
     description:
       "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room. A little boy named Andy loves to be in his room, playing with his toys, especially his doll named Woody. But, what do the toys do when Andy is not with them, they come to life.",
-  },
+    
+  trailer:"https://youtu.be/rNk1Wi8SvNc"},
   {id:4,
     title: "Minions",
     date: "2010",
@@ -37,5 +39,5 @@ export const movies = [
     rating: 5,
     description:
       "Minions are a species of tiny yellow henchmen; they look like unusually dressed Mike and Ike candies. They're earnestly driven by the desire to serve an evil boss, though they often screw up because they're selfish, easily distracted, and generally inept.",
-  },
+  trailer:"https://youtu.be/eisKxhjBnZ0"},
 ];

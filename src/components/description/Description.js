@@ -5,7 +5,7 @@ import { Link, useParams } from "react-router-dom";
 const Description = ({moviesData}) => {
   const { Id } = useParams();
   return (
-    <div>{moviesData.filter((el)=>el.id===Id).map((el,key)=>
+    <div>{moviesData.filter((el)=>el.id==Id).map((el,key)=>
       <div className="cellphone-container1">  
       <iframe src={el.trailer} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <div>

@@ -7,7 +7,7 @@ import { Navbar, Nav } from "react-bootstrap";
 import Search from "./components/movieSearch/Search";
 import Rating from "./components/rating/Rating";
 import Description from "./components/description/Description";
-import { Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 function App() {
   const [moviesData, setMoviesData] = useState(movies);
   const [search, setSearch] = useState("");
@@ -17,6 +17,7 @@ function App() {
   };
   return (
     <div className="App">
+      <Switch>
          <Route exact path='/'>
       <Navbar bg="dark" variant="dark">
         <Nav className="mr-auto">
@@ -30,7 +31,7 @@ function App() {
       <Route  path="/description/:Id">
         <Description   moviesData={moviesData}/>
       </Route>
-       
+      </Switch>
       
       
     </div>
